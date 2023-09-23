@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\moviesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,6 @@ Route::get('/', function () {
 
 
 Route::view('/home', 'index');
+
+Route::get('/movies', [moviesController::class, 'movies'])->name('Movies');
+Route::get('/admin-panel', [moviesController::class, 'AdminPanel'])->name('AdminPanel');
