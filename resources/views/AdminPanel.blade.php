@@ -7,13 +7,13 @@
   <title>Admin Panel</title>
 </head>
 <body>
-  <form method="post" action="AdminPanel">
+  <form method="POST" action="/AdminPanel-store">
     @csrf
-    @method('post')
+    {{-- @method('post') --}}
     <label>Movie Name</label> <br>
     <input type="text" name="movie_name" placeholder="Movie Name"> <br><br>
     <label>Release Date</label> <br>
-    <input type="date" name="release-date" placeholder="Release Date"><br><br>
+    <input type="date" name="release_date" placeholder="Release Date"><br><br>
     <label>Image URL</label> <br>
     <input type="string" name="image_url" placeholder="Cover Image URL"><br><br>
     <label>Trailer URL</label> <br>

@@ -23,4 +23,4 @@ Route::view('/home', 'index');
 
 Route::get('/movies', [moviesController::class, 'movies'])->name('Movies');
 Route::get('/AdminPanel', [moviesController::class, 'AdminPanel'])->name('AdminPanel');
-Route::post('/AdminPanel', [moviesController::class, 'store'])->name('AdminPanel');
+Route::post('/AdminPanel-store', [moviesController::class, 'store'])->name('AdminPanel');

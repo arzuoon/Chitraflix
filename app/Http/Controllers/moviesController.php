@@ -19,7 +19,8 @@ class moviesController extends Controller
 
     public function store(Request $request)
     {
-        $data = $request->validate([
+        // dd($request);
+        $request->validate([
             'movie_name' => 'required',
             'release_date' => 'required',
             'description' => 'required',
@@ -27,10 +28,14 @@ class moviesController extends Controller
             'video_url' => 'required',
         ]);
 
-        $newmov = movies::create($data);
-
-        return redirect(route('AdminPanel'));
-
+        $data = new movies();
+        $data->movie_name = $request->movie_name;
+        $data->release_date = $request->release_date;
+        $data->description = $request->description;
+        $data->image_url = $request->image_url;
+        $data->video_url = $request->video_url;
+        $data->save();
+        return redirect('/AdminPanel');
     }
 
 }
