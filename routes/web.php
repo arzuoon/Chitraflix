@@ -20,6 +20,12 @@ Route::get('/', function () {
 
 
 Route::view('/home', 'index');
+Route::view('/genre', 'Genre');
+Route::view('/movies', 'movies');
+Route::view('/login', 'LogIn');
+Route::view('/signup', 'SignUp');
+Route::view('/profile', 'UserProfile');
+
 
 Route::get('/movies', [moviesController::class, 'movies'])->name('Movies');
 Route::get('/AdminPanel', [moviesController::class, 'AdminPanel'])->name('AdminPanel');

@@ -72,7 +72,7 @@ header .search {
 .signup button {
     color: #fbbd12;
     background-color: #2d2e32;
-    border: 1px solid #fbbd12;
+    border: 2px solid #fbbd12;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 16px;
@@ -82,7 +82,7 @@ header .search {
 .login button {
     color: #fbbd12;
     background-color: #2d2e32;
-    border: 1px solid #fbbd12;
+    border: 2px solid #fbbd12;
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
@@ -118,37 +118,52 @@ header .search {
     height: auto;
 }
 .box {
-    background-color: rgb(12 10 10 / 72%);
+    background-color: rgba(0, 0, 0, 0.92);
     width: 300px;
     height: 250px;
     /* margin: 0px 30px; */
     position: relative;
-    bottom: 23rem;
-    left: 33rem;
+    bottom: 26rem;
+    left: 50rem;
     color: white;
     text-align: center;
     width: 500px;
     font-size: 25px;
 }
-.getstarted-txt {
-    width: 100px;
-    height: 40px;
-    border: 1px solid yellow;
-    border-radius: 17px;
-    color: FBBD12;
-    background-color: transparent;
-    margin-top: 10px;
-}
-/* .a-social-network{
-font-size: 16px;
-margin-top: 20px;
-} */
 
-.rate-and-share {
-    margin-top: 11px;
-    font-size: 20px;
+.box-line {
+    background-color: #fbbd12;
+    width: 5px;
+    height: 250px;
+    float: right;
+}
+
+.getstarted-txt {
+    margin-top: 30px;
+    border: 2px solid #fbbd12;
+    color: #fbbd12;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.a-social-network {
+    font-size: 16px;
     position: relative;
     top: 18px;
+    margin: 5px;
+    font-family: caladea;
+}
+
+.rate-and-share {
+    /* margin-top: 5px; */
+    font-size: 27px;
+    position: relative;
+    top: 18px;
+    margin: 5px;
+    font-family: caladea;
 }
 
 @media screen and (max-width: 768px) {
@@ -157,13 +172,46 @@ margin-top: 20px;
     }
 }
 
+.featured-this-week {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title {
+    margin: 20px 30px 0px;
+    margin-left: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title > a {
+    text-decoration: none;
+    color: #fbbd12;
+}
+.long-line {
+    background-color: #62646b;
+    width: 1330px;
+    height: 2px;
+    margin-top: 2px;
+    margin-left: 22px;
+}
+
+.title > p {
+    margin: 0px;
+    color: #fbbd12;
+}
+
+/* 
 .bg,
 .bg1 {
     left: 0;
     background-color: var(--color-darkslategray-200);
     width: 100%;
     height: 649px;
-}
+} */
+
 .span {
     color: #ffffff;
 }
@@ -186,21 +234,6 @@ margin-top: 20px;
     height: auto;
 }
 
-.featured-this-week {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.title {
-    margin: 20px 30px 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.title > p {
-    margin: 0px;
-    color: #fbbd12;
-}
 @media screen and (max-width: 768px) {
     .movie-card {
         width: 90%;
