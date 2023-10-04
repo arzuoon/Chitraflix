@@ -25,7 +25,10 @@ Route::view('/movies', 'movies');
 Route::view('/login', 'LogIn');
 Route::view('/signup', 'SignUp');
 Route::view('/profile', 'UserProfile');
-
+Route::view('/privacy', 'PrivacyPolicy');
+Route::view('/about', 'AboutUs');
+Route::view('/contact', 'ContactUs');
+Route::view('/faq', 'FAQ');
 
 Route::get('/movies', [moviesController::class, 'movies'])->name('Movies');
 Route::get('/AdminPanel', [moviesController::class, 'AdminPanel'])->name('AdminPanel');
