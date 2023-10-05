@@ -69,13 +69,14 @@
 
 
               <div class="title">
-                <p class="top-rated-on">FEATURED THIS WEEK</p>
-                <a href="profile"> More
+                <p>FEATURED THIS WEEK</p>
+                <a href="movies"> More
                 </a>
               </div>
               <div class="long-line"></div>
               <div class="featured-this-week">
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/the boys.jpg" alt="Movie 1">
                     <div class="movie-info">
@@ -84,7 +85,9 @@
                      <div class="name-of-the">THE BOYS</div>
                     </div>
                 </div> 
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/the boys.jpg" alt="Movie 1">
                     <div class="movie-info">
@@ -93,7 +96,9 @@
                      <div class="name-of-the">THE BOYS</div>
                     </div>
                 </div> 
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/ant man.jpg" alt="Movie 2">
                     <div class="movie-info">
@@ -102,7 +107,9 @@
                      <div class="name-of-the">ANT-MAN</div>
                     </div>
                 </div>
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/thor love of thunder.jpg" alt="Movie 2">
                     <div class="movie-info">
@@ -111,7 +118,9 @@
                     <div class="name-of-the">THOR</div>
                     </div>
                 </div>
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/avengers.jpg" alt="Movie 2">
                     <div class="movie-info">
@@ -120,7 +129,9 @@
                     <div class="name-of-the">AVENGERS</div>
                     </div>
                 </div>
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/spiderman.jpg" alt="Movie 2">
                     <div class="movie-info">
@@ -129,7 +140,9 @@
                     <div class="name-of-the">SPIDERMAN</div>
                     </div>
                 </div>
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                   <img src="img/interstellar-p963317.jpg" alt="Movie 2">
                   <div class="movie-info">
@@ -138,13 +151,14 @@
                   <div class="name-of-the">INTERSTELLER</div>
                   </div>
                 </div> 
+                </a>
 
               </div>
 
               <div class="section-next">
 
                 <div class="video">
-                 <p class="watch-here">WATCH HERE</p> 
+                 <p class="watch-here">WATCH NEW TRAILER HERE</p> 
                   <div class="movie-trailer">               
                     <iframe  src="https://www.youtube.com/watch?v=shW9i6k8cB0" frameborder="0" allowfullscreen></iframe>                      
                   </div>
@@ -195,13 +209,14 @@
 
 
               <div class="title">
-                <p class="top-rated-on">TOP RATED ON CHITRAFLIX</p>
-                <a href="profile"> More
+                <p>TOP RATED ON CHITRAFLIX</p>
+                <a href="movies"> More
                 </a>
               </div>
               <div class="long-line"></div>
-              <div class="featured-this-week">
+              <div class="top-rated-on">
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/the boys.jpg" alt="Movie 1">
                     <div class="movie-info">
@@ -210,7 +225,9 @@
                      <div class="name-of-the">THE BOYS</div>
                     </div>
                 </div> 
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/the boys.jpg" alt="Movie 1">
                     <div class="movie-info">
@@ -219,7 +236,9 @@
                      <div class="name-of-the">THE BOYS</div>
                     </div>
                 </div> 
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/ant man.jpg" alt="Movie 2">
                     <div class="movie-info">
@@ -228,7 +247,9 @@
                      <div class="name-of-the">ANT-MAN</div>
                     </div>
                 </div>
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/thor love of thunder.jpg" alt="Movie 2">
                     <div class="movie-info">
@@ -237,7 +258,9 @@
                     <div class="name-of-the">THOR</div>
                     </div>
                 </div>
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/avengers.jpg" alt="Movie 2">
                     <div class="movie-info">
@@ -246,16 +269,20 @@
                     <div class="name-of-the">AVENGERS</div>
                     </div>
                 </div>
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                     <img src="img/spiderman.jpg" alt="Movie 2">
                     <div class="movie-info">
                     <span style="color: #FBBD12;">★</span>
                     <span class="span"> 9.0</span>
-                    <div class="name-of-the">SPIDERMAN NO WAY HOME</div>
+                    <div class="name-of-the">SPIDERMAN</div>
                     </div>
                 </div>
+                </a>
 
+                <a href="movie">
                 <div class="movie-card">
                   <img src="img/interstellar-p963317.jpg" alt="Movie 2">
                   <div class="movie-info">
@@ -264,6 +291,7 @@
                   <div class="name-of-the">INTERSTELLER</div>
                   </div>
                 </div> 
+                </a>
 
               </div>
   
@@ -272,10 +300,10 @@
 
         <div class="footer">
           <div class="icon">
-            <a href="facebook.com"><i class="fab fa-facebook"></i></a> &nbsp; &nbsp;
-            <a href="youtube.com"><i class="fab fa-youtube"></i></a> &nbsp; &nbsp;
-            <a href="instagram.com"><i class="fab fa-instagram"></i></a> &nbsp; &nbsp;
-            <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a> &nbsp; &nbsp;
+            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a> &nbsp; &nbsp;
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a> &nbsp; &nbsp;
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
           </div>
         <div class="copyright">
           © Copyright <a href="home">CHITRAFLIX</a> | All rights reserved.

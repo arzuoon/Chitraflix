@@ -1,0 +1,233 @@
+.movie-name {
+    color: #ffffff;
+    font-size: large;
+    margin: 10px 30px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.movie-trailer > video {
+    width: 600px;
+    padding: 0px;
+    margin: 5px;
+}
+.video {
+    padding-left: 22px;
+}
+.cover-icon {
+    height: 55%;
+    width: 20%;
+    top: 10%;
+}
+.genre {
+    color: #fbbd12;
+}
+.released {
+    color: #aeaeae;
+}
+.movie-details p {
+    color: #ffffff;
+}
+/*   .container .movie-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #2D2E32;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    width: 40%;
+  } */
+.give-your-ratings {
+    color: #ffffff;
+    font-size: large;
+    margin: 20px 15px;
+}
+
+/* DISPLAY RATING SECTION BESIDE VIDEO */
+
+.detail-image-rating {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 280px;
+    width: 300px;
+}
+.detail-image-rating .rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.detail-image-rating .rating img {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+}
+.rating .display-rating {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 50px;
+    line-height: 150px;
+    display: flex;
+}
+.detail-image-rating p {
+    margin: 0px;
+}
+
+.rating-txt {
+    position: absolute;
+    top: 3.56px;
+    left: 9.96px;
+    font-weight: 800;
+}
+.rating1 {
+    position: absolute;
+    top: 95%;
+    left: 20px;
+    border-radius: 14.23px;
+    border: 1.4px solid goldenrod;
+    color: #fbbd12;
+    box-sizing: border-box;
+    width: 28.46px;
+    height: 28.46px;
+}
+.rating-txt1 {
+    position: absolute;
+    top: 3.56px;
+    left: 8.54px;
+    font-weight: 800;
+}
+.rating2,
+.rating3,
+.rating4,
+.rating5,
+.rating6 {
+    position: absolute;
+    top: 95%;
+    left: 70px;
+    border-radius: 14.23px;
+    border: 1.4px solid goldenrod;
+    color: #fbbd12;
+    box-sizing: border-box;
+    width: 28.46px;
+    height: 28.46px;
+}
+.rating3,
+.rating4,
+.rating5,
+.rating6 {
+    left: 120px;
+}
+.rating4,
+.rating5,
+.rating6 {
+    left: 170px;
+}
+.rating5,
+.rating6 {
+    left: 220px;
+}
+.rating6 {
+    left: 273px;
+}
+.rating-txt6 {
+    position: absolute;
+    top: 3.56px;
+    left: 9.25px;
+    font-weight: 800;
+}
+.rating7,
+.rating8,
+.rating9 {
+    position: absolute;
+    top: 95%;
+    left: 325px;
+    border-radius: 14.23px;
+    border: 1.4px solid goldenrod;
+    color: #fbbd12;
+    box-sizing: border-box;
+    width: 28.46px;
+    height: 28.46px;
+}
+.rating8,
+.rating9 {
+    left: 380px;
+}
+.rating9 {
+    left: 430px;
+}
+.rating-txt9 {
+    position: absolute;
+    top: 3.56px;
+    left: 5px;
+    font-weight: 800;
+}
+.rating10 {
+    position: absolute;
+    top: 95%;
+    left: 480px;
+    border-radius: 14.23px;
+    border: 1.4px solid goldenrod;
+    color: #fbbd12;
+    box-sizing: border-box;
+    width: 28.46px;
+    height: 28.46px;
+}
+
+.input-box input {
+    height: 40px;
+    width: 80%;
+    padding: 0 10px;
+    border-radius: 40px;
+    border: 2px solid #ffffff;
+    background-color: #2d2e32;
+    outline: none;
+    margin: 60px 10px;
+}
+.post button {
+    margin-top: -50px;
+    color: #fbbd12;
+    background-color: #2d2e32;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    margin-left: 70%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.review {
+    background-color: #2d2e32;
+    width: 95%;
+    margin: 0px 20px;
+    padding: 0.1rem 0;
+}
+.review ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #494c52;
+}
+.review ul li .reviewer1 .reviews {
+    color: #fbbd12;
+    padding-top: 10px;
+}
+.review ul li .reviewer1 .username {
+    color: #919192;
+}
+.review ul li .reviewer1 p {
+    color: #ffffff;
+}
+li {
+    list-style: none;
+}
+h4 {
+    color: #ffffff;
+    font-size: large;
+    margin-left: 25px;
+}

@@ -1,0 +1,62 @@
+.user {
+    color: #fff;
+    padding-bottom: 5px;
+    margin: 15px 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user p {
+    margin-top: 0px;
+    font-size: large;
+    margin-left: 15px;
+}
+.title {
+    border-bottom: 2px solid #2d2e32;
+    padding-bottom: 5px;
+    margin: 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title > p {
+    margin: 5px;
+    color: #fbbd12;
+    text-align: center;
+}
+.title .fav {
+    margin-right: 800px;
+}
+.cards {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.movie-card {
+    border: 1px;
+    width: 170px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+}
+.span {
+    color: #ffffff;
+}
+.name-of-the {
+    color: #ffffff;
+    padding-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    .movie-card {
+        width: 90%;
+        margin: 10px auto;
+    }
+}

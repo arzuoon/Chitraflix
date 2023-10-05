@@ -3,11 +3,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <link rel="stylesheet" href="NavFoot.css"/>
+    <link rel="stylesheet" href="movies.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     {{-- <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Acme|Alegreya|Alegreya+Sans|Anton|Archivo|Archivo+Black|Archivo+Narrow|Arimo|Arvo|Asap|Asap+Condensed|Bitter|Bowlby+One+SC|Bree+Serif|Cabin|Cairo|Catamaran|Crete+Round|Crimson+Text|Cuprum|Dancing+Script|Dosis|Droid+Sans|Droid+Serif|EB+Garamond|Exo|Exo+2|Faustina|Fira+Sans|Fjalla+One|Francois+One|Gloria+Hallelujah|Hind|Inconsolata|Indie+Flower|Josefin+Sans|Julee|Karla|Lato|Libre+Baskerville|Libre+Franklin|Lobster|Lora|Mada|Manuale|Maven+Pro|Merriweather|Merriweather+Sans|Montserrat|Montserrat+Subrayada|Mukta+Vaani|Muli|Noto+Sans|Noto+Serif|Nunito|Open+Sans|Open+Sans+Condensed:300|Oswald|Oxygen|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|PT+Serif|Pacifico|Passion+One|Pathway+Gothic+One|Play|Playfair+Display|Poppins|Questrial|Quicksand|Raleway|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Ropa+Sans|Rubik|Saira|Saira+Condensed|Saira+Extra+Condensed|Saira+Semi+Condensed|Sedgwick+Ave|Sedgwick+Ave+Display|Shadows+Into+Light|Signika|Slabo+27px|Source+Code+Pro|Source+Sans+Pro|Spectral|Titillium+Web|Ubuntu|Ubuntu+Condensed|Varela+Round|Vollkorn|Work+Sans|Yanone+Kaffeesatz|Zilla+Slab|Zilla+Slab+Highlight"
      rel="stylesheet"> --}}
- <title>ChitraFlix</title>
+ <title>Movie</title>
 </head>
 
 
@@ -41,15 +42,185 @@
         </header>
 
         
+
+              <div class="title">
+                <p><a href="movies">TOP RATED</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="movies">RECENT</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="movies">ALPHABET</a></p>
+
+              </div>
+              <div class="long-line"></div>
+
+              <div class="topics">
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/the boys.jpg" alt="Movie 1">
+                    <div class="movie-info">
+                     <span class="span" style="color: #FBBD12;">★</span>
+                     <span class="span"> 9.0</span>
+                     <div class="name-of-the">THE BOYS</div>
+                    </div>
+                </div> 
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/the boys.jpg" alt="Movie 1">
+                    <div class="movie-info">
+                     <span class="span" style="color: #FBBD12;">★</span>
+                     <span class="span"> 9.0</span>
+                     <div class="name-of-the">THE BOYS</div>
+                    </div>
+                </div> 
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/ant man.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                     <span class="span"> 9.0</span>
+                     <div class="name-of-the">ANT-MAN</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/thor love of thunder.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                    <span class="span"> 9.0</span>
+                    <div class="name-of-the">THOR</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/avengers.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                    <span class="span"> 9.0</span>
+                    <div class="name-of-the">AVENGERS</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/spiderman.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                    <span class="span"> 9.0</span>
+                    <div class="name-of-the">SPIDERMAN</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                  <img src="img/interstellar-p963317.jpg" alt="Movie 2">
+                  <div class="movie-info">
+                  <span style="color: #FBBD12;">★</span>
+                  <span class="span"> 9.0</span>
+                  <div class="name-of-the">INTERSTELLER</div>
+                  </div>
+                </div> 
+                </a>
+
+              </div>
+
+              
+              <div class="topics">
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/the boys.jpg" alt="Movie 1">
+                    <div class="movie-info">
+                     <span class="span" style="color: #FBBD12;">★</span>
+                     <span class="span"> 9.0</span>
+                     <div class="name-of-the">THE BOYS</div>
+                    </div>
+                </div> 
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/the boys.jpg" alt="Movie 1">
+                    <div class="movie-info">
+                     <span class="span" style="color: #FBBD12;">★</span>
+                     <span class="span"> 9.0</span>
+                     <div class="name-of-the">THE BOYS</div>
+                    </div>
+                </div> 
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/ant man.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                     <span class="span"> 9.0</span>
+                     <div class="name-of-the">ANT-MAN</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/thor love of thunder.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                    <span class="span"> 9.0</span>
+                    <div class="name-of-the">THOR</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/avengers.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                    <span class="span"> 9.0</span>
+                    <div class="name-of-the">AVENGERS</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/spiderman.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                    <span class="span"> 9.0</span>
+                    <div class="name-of-the">SPIDERMAN</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                  <img src="img/interstellar-p963317.jpg" alt="Movie 2">
+                  <div class="movie-info">
+                  <span style="color: #FBBD12;">★</span>
+                  <span class="span"> 9.0</span>
+                  <div class="name-of-the">INTERSTELLER</div>
+                  </div>
+                </div> 
+                </a>
+
+              </div>
+
     </div>
 
 
         <div class="footer">
           <div class="icon">
-            <a href="facebook.com"><i class="fab fa-facebook"></i></a> &nbsp; &nbsp;
-            <a href="youtube.com"><i class="fab fa-youtube"></i></a> &nbsp; &nbsp;
-            <a href="instagram.com"><i class="fab fa-instagram"></i></a> &nbsp; &nbsp;
-            <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a> &nbsp; &nbsp;
+            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a> &nbsp; &nbsp;
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a> &nbsp; &nbsp;
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
           </div>
         <div class="copyright">
           © Copyright <a href="home">CHITRAFLIX</a> | All rights reserved.
@@ -69,12 +240,6 @@
           });
         }
         
-        var getStartedContainer = document.getElementById("getStartedContainer");
-        if (getStartedContainer) {
-          getStartedContainer.addEventListener("click", function (e) {
-            // Please sync "login" to the project
-          });
-        }
         
         var signUpContainer = document.getElementById("signUpContainer");
         if (signUpContainer) {

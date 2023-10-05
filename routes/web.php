@@ -29,6 +29,7 @@ Route::view('/privacy', 'PrivacyPolicy');
 Route::view('/about', 'AboutUs');
 Route::view('/contact', 'ContactUs');
 Route::view('/faq', 'FAQ');
+Route::view('/movie', 'Movie');
 
 Route::get('/movies', [moviesController::class, 'movies'])->name('Movies');
 Route::get('/AdminPanel', [moviesController::class, 'AdminPanel'])->name('AdminPanel');
