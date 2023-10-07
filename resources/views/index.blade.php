@@ -26,7 +26,7 @@
                     <a href="home">HOME</a>
                     <a href="movies">MOVIES</a>
                     <a href="genre">GENRE</a>
-                    <a href="profile">WATCHLIST</a>           
+                    <a href="profile">PROFILE</a>           
             </nav>
             <a href="login"> 
             <div class="login">
@@ -168,39 +168,33 @@
                   <p class="pop-reviewers">POPULAR REVIEWERS</p>
                   <ul>
                     <li>
-                      <div class="reviewer1" style="padding-top: none; margin-top: -16px;">
-                        <div class="reviews">@username</div>
-                        <div class="username">53 reviews</div>
+                      <div class="reviewer1">
+                        <div class="username">@username</div>
+                        <div class="reviews">53 reviews</div>
                       </div>
                     </li>
                     <li>
                       <div class="reviewer1">
-                        <div class="reviews">@username</div>
-                        <div class="username">53 reviews</div>
+                        <div class="username">@username</div>
+                        <div class="reviews">53 reviews</div>
                       </div>
                     </li>
                     <li>
                       <div class="reviewer1">
-                        <div class="reviews">@username</div>
-                        <div class="username">53 reviews</div>
+                        <div class="username">@username</div>
+                        <div class="reviews">53 reviews</div>
+                      </div>
+                    </li>                    
+                    <li>
+                      <div class="reviewer1">
+                        <div class="username">@username</div>
+                        <div class="reviews">53 reviews</div>
                       </div>
                     </li>
                     <li>
                       <div class="reviewer1">
-                        <div class="reviews">@username</div>
-                        <div class="username">53 reviews</div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="reviewer1">
-                        <div class="reviews">@username</div>
-                        <div class="username">53 reviews</div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="reviewer1">
-                        <div class="reviews">@username</div>
-                        <div class="username">53 reviews</div>
+                        <div class="username">@username</div>
+                        <div class="reviews">53 reviews</div>
                       </div>
                     </li>
                   </ul>      

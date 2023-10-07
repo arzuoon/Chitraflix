@@ -26,90 +26,114 @@
                     <a href="home">HOME</a>
                     <a href="movies">MOVIES</a>
                     <a href="genre">GENRE</a>
-                    <a href="profile">WATCHLIST</a>           
+                    <a href="profile">PROFILE</a>           
             </nav>
  
 
-            <a href="profile"> 
-            <div class="profile-page">
-                <button>Profile</button>
-            </div>
-            </a>
         </header>   
     </div>
 
 
     
-    <div class="user">
+    <div class="top-section">
+      <div class="username">
         <p>@username</p>
-        <div class="profile">
-            <button>Admin Panel</button>
-        </div>      
-    </div>
-
-
-    <div class="title">
-        <p>WATCHLIST </p>
-        <p class="fav">FAVOURITES </p>
-        <p>More</p>
-    </div>
-
-
-      <div class="cards">
-        <div class="movie-card">
-            <img src="img/the boys.jpg" alt="Movie 1">
-            <div class="movie-info">
-              <span style="color:#FBBD12 ;">★</span>
-              <span class="span"> 9.0</span>
-              <div class="name-of-the">THE BOYS</div>
-            </div>
-        </div> 
-                 
-        <div class="movie-card">
-            <img src="img/ant man.jpg" alt="Movie 2">
-            <div class="movie-info">
-             <span style="color:#FBBD12 ;">★</span>
-             <span class="span"> 9.0</span>
-             <div class="name-of-the">ANT-MAN</div>
-            </div>
-        </div>
-
-        <div class="movie-card">
-            <img src="img/thor love of thunder.jpg" alt="Movie 2">
-            <div class="movie-info">
-            <span style="color:#FBBD12 ;">★</span>
-            <span class="span"> 9.0</span>
-            <div class="name-of-the">THOR</div>
-            </div>
-        </div>
-
-        <div class="movie-card">
-            <img src="img/avengers.jpg" alt="Movie 2">
-            <div class="movie-info">
-            <span style="color:#FBBD12 ;">★</span>
-            <span class="span"> 9.0</span>
-            <div class="name-of-the">AVENGERS</div>
-            </div>
-        </div>
-
-        <div class="movie-card">
-            <img src="img/spiderman.jpg" alt="Movie 2">
-            <div class="movie-info">
-            <span style="color:#FBBD12 ;">★</span>
-            <span class="span"> 9.0</span>
-            <div class="name-of-the">SPIDERMAN</div>
-            </div>
-        </div> 
-
-        <div class="movie-card">
-          <img src="img/Jhon Wick.jpg" alt="Movie 2">
-          <div class="movie-info">
-         <span style="color:#FBBD12 ;">★</span>
-          <span class="span"> 9.0</span>
-          <div class="name-of-the">JOHN WICK</div>
-          </div>
-        </div>             
       </div>
+        <a href="AdminPanel">
+        <div class="admin-panel">
+            <button>Admin Panel</button>
+        </div>
+        </a>      
+    </div>
+
+              <div class="title">
+                <p><a href="profile">WATCHLIST</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="profile">FAVORITES</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</p>
+
+              </div>
+              <div class="long-line"></div>
+
+              <div class="topics">
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/the boys.jpg" alt="Movie 1">
+                    <div class="movie-info">
+                     <span class="span" style="color: #FBBD12;">★</span>
+                     <span class="span"> 9.0</span>
+                     <div class="name-of-the">THE BOYS</div>
+                    </div>
+                </div> 
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/the boys.jpg" alt="Movie 1">
+                    <div class="movie-info">
+                     <span class="span" style="color: #FBBD12;">★</span>
+                     <span class="span"> 9.0</span>
+                     <div class="name-of-the">THE BOYS</div>
+                    </div>
+                </div> 
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/ant man.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                     <span class="span"> 9.0</span>
+                     <div class="name-of-the">ANT-MAN</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/thor love of thunder.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                    <span class="span"> 9.0</span>
+                    <div class="name-of-the">THOR</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/avengers.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                    <span class="span"> 9.0</span>
+                    <div class="name-of-the">AVENGERS</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                    <img src="img/spiderman.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                    <span style="color: #FBBD12;">★</span>
+                    <span class="span"> 9.0</span>
+                    <div class="name-of-the">SPIDERMAN</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="movie">
+                <div class="movie-card">
+                  <img src="img/interstellar-p963317.jpg" alt="Movie 2">
+                  <div class="movie-info">
+                  <span style="color: #FBBD12;">★</span>
+                  <span class="span"> 9.0</span>
+                  <div class="name-of-the">INTERSTELLER</div>
+                  </div>
+                </div> 
+                </a>
+
+              </div>
+
+              
 
         <div class="footer">
           <div class="icon">
@@ -125,7 +149,7 @@
           <a href="privacy"> Privacy Policy</a> | <a href="about">About</a> | <a href="contact">Contact</a> | <a href="faq">FAQs</a>
         </div>
        </div>
-    </div>
+
 
 
     <script>

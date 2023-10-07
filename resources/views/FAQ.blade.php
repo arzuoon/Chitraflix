@@ -26,15 +26,11 @@
                     <a href="home">HOME</a>
                     <a href="movies">MOVIES</a>
                     <a href="genre">GENRE</a>
-                    <a href="profile">WATCHLIST</a>           
+                    <a href="profile">PROFILE</a>           
             </nav>
  
 
-            <a href="profile"> 
-            <div class="profile-page">
-                <button>Profile</button>
-            </div>
-            </a>
+ 
         </header>   
     </div>
 

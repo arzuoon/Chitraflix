@@ -26,7 +26,7 @@
                     <a href="home">HOME</a>
                     <a href="movies">MOVIES</a>
                     <a href="genre">GENRE</a>
-                    <a href="profile">WATCHLIST</a>           
+                    <a href="profile">PROFILE</a>           
             </nav>
             <a href="login"> 
             <div class="login">
@@ -42,112 +42,110 @@
         </header>
 
         
-        <div class="movie-name">Movie Name</div>
-        <div class="container">
-        <div class="movie-trailer">               
-            <video src="video/john wick.webm" autoplay muted></video>                      
-          </div>
-          <div class="movie-details" id="movie-details">
-            <div class="detail-image-rating">
-              <div class="rating">
-                <img class="cover-icon" alt="" src="img/Jhon Wick.jpg" />
-                <div class="display-rating">
-                  <span style="color:#FBBD12;">★</span>
-                  <span class="span" style="color: #fff;">  9.0  </span>
+              <div class="head-section">
+
+                <div class="video">
+                 <p class="watch-here">NAME OF THE MOVIE</p> 
+                  <div class="movie-trailer">               
+                    <iframe  src="https://www.youtube.com/watch?v=shW9i6k8cB0" frameborder="0" allowfullscreen></iframe>                      
+                  </div>
                 </div>
+
+              <div class="movie-details">
+                  <div class="detail-top">
+                    <div class="cover-img"> 
+                    <img alt="" src="img/Jhon Wick.jpg" />
+                    </div>
+                    <div class="display-rating">
+                    <span class="star">★ &nbsp;</span>
+                    <span class="rt" style="color: #fff;"> 9.0 </span>
+                    </div>
+                  </div>
+                  <div class="genre">ACTION | CRIME </div>
+                  <i class="released">Released Year: XX-XX-XXXX</i>
+                  <p>
+                  A short synopsis on the movie or some short description on it. A
+                  short synopsis on the movie or some short description on it. A short
+                  synopsis on the movie or some short description on it.
+                  </p>  
               </div>
-              <div class="genre">GENRE | GENRE | GENRE</div>
-              <i class="released">Released Year: XX-XX-XXXX</i>
-              <p>
-                A short synopsis on the movie or some short description on it. A
-                short synopsis on the movie or some short description on it. A short
-                synopsis on the movie or some short description on it.
-              </p>  
-          </div>
-        </div>  
-        </div>
-        <div class="ratings">
-            <div class="give-your-ratings">Give your Ratings</div>
-            <div class="rating1">
-                <div class="rating-txt">1</div>
-              </div>
-              <div class="rating2">
-                <div class="rating-txt1">2</div>
-              </div>
-              <div class="rating3">
-                <div class="rating-txt1">3</div>
-              </div>
-              <div class="rating4">
-                <div class="rating-txt1">4</div>
-              </div>
-              <div class="rating5">
-                <div class="rating-txt1">5</div>
-              </div>
-              <div class="rating6">
-                <div class="rating-txt1">6</div>
-              </div>
-              <div class="rating7">
-                <div class="rating-txt6">7</div>
-              </div>
-              <div class="rating8">
-                <div class="rating-txt1">8</div>
-              </div>
-              <div class="rating9">
-                <div class="rating-txt1">9</div>
-              </div>
-              <div class="rating10">
-                <div class="rating-txt9">10</div>
-             </div>
-    </div>
-    <div class="input-box">
-        <input type="text" placeholder="Write your review"required>
-    </div>
-    <div class="post">
-        <button>POST REVIEW</button>
-    </div> 
-    <h4>Reviews</h4>
-    <div class="review">   
-        <ul>
-            <li>
-              <div class="reviewer1" style="padding-top: none; margin-top: -16px;">
-                <div class="reviews">@username</div>
-                <p>Exceptionally good movie. The main characters optimism & acceptance of other pursuing their dreams regardless of
-                    whether or not he agrees with them or indeed they're the dream of his enemies is a thing of beauty. The kids attitude
-                    to his fellow man is admirable toward pursuing his own life should serve as a lesson to us all.
-                </p>
-              </div>
-            </li>
-            <li>
-                <div class="reviewer1" style="padding-top: none; margin-top: -16px;">
-                  <div class="reviews">@username</div>
-                  <p>Exceptionally good movie. The main characters optimism & acceptance of other pursuing their dreams regardless of
-                      whether or not he agrees with them or indeed they're the dream of his enemies is a thing of beauty. The kids attitude
-                      to his fellow man is admirable toward pursuing his own life should serve as a lesson to us all.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div class="reviewer1" style="padding-top: none; margin-top: -16px;">
-                  <div class="reviews">@username</div>
-                  <p>Exceptionally good movie. The main characters optimism & acceptance of other pursuing their dreams regardless of
-                      whether or not he agrees with them or indeed they're the dream of his enemies is a thing of beauty. The kids attitude
-                      to his fellow man is admirable toward pursuing his own life should serve as a lesson to us all.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div class="reviewer1" style="padding-top: none; margin-top: -16px;">
-                  <div class="reviews">@username</div>
-                  <p>Exceptionally good movie. The main characters optimism & acceptance of other pursuing their dreams regardless of
-                      whether or not he agrees with them or indeed they're the dream of his enemies is a thing of beauty. The kids attitude
-                      to his fellow man is admirable toward pursuing his own life should serve as a lesson to us all.
-                  </p>
-                </div>
-              </li>
-          </ul>  
-    </div>
+
+      </div>        
+
+
+      <div class="ratings">
+            <div class="rating-text">Rate this movie</div>
+            <div class="rating-value-head">
+                <div class="rating-value">1</div>
+                <div class="rating-value">2</div>
+                <div class="rating-value">3</div>
+                <div class="rating-value">4</div>
+                <div class="rating-value">5</div>
+                <div class="rating-value">6</div>
+                <div class="rating-value">7</div>
+                <div class="rating-value">8</div>
+                <div class="rating-value">9</div>
+                <div class="rating-value">10</div>
+            </div>   
+      </div>
+
+
+
+    <div class="textarea-container">
+      <div class="input-box">
+        <textarea class="text-field" placeholder="Write your review" required></textarea>
+        <button class="send-button"><i class='bx bx-send bx-tada-hover bx-sm' style="color: #090909"></i></button>
+      </div>
     </div>
 
+
+
+      <div class="review-section">
+                  <p class="review-head"> REVIEWES</p>
+                  <ul>
+                    <li>
+                      <div class="review-1">
+                        <div class="username">@username</div>
+                        <div class="review-text">
+                          <p>Exceptionally good movie. The main characters optimism & acceptance of other pursuing their dreams regardless of
+                            whether or not he agrees with them or indeed they're the dream of his enemies is a thing of beauty. The kids attitude
+                            to his fellow man is admirable toward pursuing his own life should serve as a lesson to us all.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="review-1">
+                        <div class="username">@username</div>
+                        <div class="review-text">
+                          <p>Amazing VFx and cinematography. The story is very well written and the acting is superb. The movie is very well paced and
+                            the action scenes are very well choreographed. The movie is very well paced and the action scenes are very well choreographed.
+                          </p>
+                        </div>
+                      </div>
+                    </li> 
+                    <li>
+                      <div class="review-1">
+                        <div class="username">@username</div>
+                        <div class="review-text">
+                          <p>Nice Movie, I like it.
+                          </p>
+                        </div>
+                      </div>
+                    </li>                    
+                    <li>
+                      <div class="review-1">
+                        <div class="username">@username</div>
+                        <div class="review-text">
+                          <p>Exactly what I expected. A great movie with a great story. I would recommend this movie to anyone who likes action movies.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>      
+      </div>
+
+ 
 
         <div class="footer">
           <div class="icon">
@@ -163,6 +161,8 @@
           <a href="privacy"> Privacy Policy</a> | <a href="about">About</a> | <a href="contact">Contact</a> | <a href="faq">FAQs</a>
         </div>
        </div>
+
+
     </div>
 
 

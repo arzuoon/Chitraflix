@@ -26,7 +26,7 @@
                     <a href="home">HOME</a>
                     <a href="movies">MOVIES</a>
                     <a href="genre">GENRE</a>
-                    <a href="profile">WATCHLIST</a>           
+                    <a href="profile">PROFILE</a>           
             </nav>
             <a href="login"> 
             <div class="login">
@@ -54,6 +54,7 @@
                   <a href="genre">DOCUMENTARY</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
                   <a href="genre">SPORTS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
                   <a href="genre">THRILLER</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                  <a href="genre">CRIME</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
                 </p>
 
               </div>
