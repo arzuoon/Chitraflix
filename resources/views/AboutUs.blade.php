@@ -16,7 +16,7 @@
     <div class="home">
         <header>
             <div class="logo">
-                <img src="img/chitraflix-logo(1).png" width="200px" alt="Chitraflix logo">
+                <a href="home"> <img src="img/chitraflix-logo(1).png" width="200px" alt="Chitraflix logo"></a>
             </div>
             <div class="search">
                 <input type="text" placeholder="Search" >

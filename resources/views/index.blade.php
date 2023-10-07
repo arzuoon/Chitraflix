@@ -3,6 +3,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <link rel="stylesheet" href="home.css"/>
+    <link rel="stylesheet" href="login.css"/>
     <link rel="stylesheet" href="NavFoot.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -16,7 +17,7 @@
     <div class="home">
         <header>
             <div class="logo">
-                <img src="img/chitraflix-logo(1).png" width="200px" alt="Chitraflix logo">
+                <a href="home"> <img src="img/chitraflix-logo(1).png" width="200px" alt="Chitraflix logo"></a>
             </div>
             <div class="search">
                 <input type="text" placeholder="Search" >
@@ -28,11 +29,45 @@
                     <a href="genre">GENRE</a>
                     <a href="profile">PROFILE</a>           
             </nav>
-            <a href="login"> 
+
+
+            
             <div class="login">
-                <button>Log In</button>
+                <button onclick="openLogin()">Log In</button>
             </div>
-            </a>
+              <div id="loginPopup" class="popup-container">
+                <div class="login-form">
+                   
+                  <button class="close-button" onclick="closeLogin()"><i class='bx bxs-x-circle'></i></button>
+                   
+                  <img src="img/chitraflix-logo(1).png" width="200px" alt="Chitraflix logo">
+                  <div class="login-bg">
+                  <div class="user-login-txt">
+                  <h2>USER LOGIN</h2>
+                  </div>
+                  <form method="post" action="login_process.php">
+                  <div class="input-group">
+                    <label>Username</label><br> 
+                    <input type="text" name="username" required><br><br>
+                  </div>
+                  <div class="input-group">
+                    <label>Password</label><br>
+                    <input type="password" name="password" required><br><br>
+                  </div>
+                  <div class="login-btn">
+                  <input type="submit" value="LOG IN">
+                  </div>
+                  </form>
+                  <div class="forgot-password">
+                    <a href="forgot-password"> <i> Forgot Password?</i></a>
+                  </div>
+                  <div class="signup-link">
+                    <p>Don't have an account? <a href="signup">Sign Up</a></p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              
 
             <a href="signup"> 
             <div class="signup">
@@ -58,7 +93,7 @@
                       <p class="rate-and-share">what’s on your WatchList.</p>
                       </b>
                         <div class="get-started" id="getStartedContainer">
-                             <a href="login">  <button class="getstarted-txt">Get Started </button></a>
+                            <button onclick="openLogin()" class="getstarted-txt">Get Started </button> 
                         </div>
                     <div class="a-social-network">
                       A social Network for movie Geeks.
@@ -310,40 +345,13 @@
 
 
     <script>
-        var item1Container1 = document.getElementById("item1Container1");
-        if (item1Container1) {
-          item1Container1.addEventListener("click", function (e) {
-            // Please sync "Particular Movie" to the project
-          });
-        }
-        
-        var getStartedContainer = document.getElementById("getStartedContainer");
-        if (getStartedContainer) {
-          getStartedContainer.addEventListener("click", function (e) {
-            // Please sync "login" to the project
-          });
-        }
-        
-        var signUpContainer = document.getElementById("signUpContainer");
-        if (signUpContainer) {
-          signUpContainer.addEventListener("click", function (e) {
-            // Please sync "sign up" to the project
-          });
-        }
-        
-        var loginTxtText = document.getElementById("loginTxtText");
-        if (loginTxtText) {
-          loginTxtText.addEventListener("click", function (e) {
-            // Please sync "login" to the project
-          });
-        }
-        
-        var moviesTxtText = document.getElementById("moviesTxtText");
-        if (moviesTxtText) {
-          moviesTxtText.addEventListener("click", function (e) {
-            // Please sync "Movies" to the project
-          });
-        }
-        </script>
+    function openLogin() {
+      document.getElementById('loginPopup').style.display = 'block';
+    }
+
+    function closeLogin() {
+      document.getElementById('loginPopup').style.display = 'none';
+    }
+    </script>
 </body>
 </html>
