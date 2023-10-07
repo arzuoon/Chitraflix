@@ -7,7 +7,7 @@ body {
     width: 100%;
     background-color: #3c3e43;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -26,34 +26,21 @@ body {
         margin-right: 0;
         margin-bottom: 10px;
     }
-}
+} */
 
 header {
     background-color: #2d2e32;
     color: #fff;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 5px;
 }
-.navbar {
+.logo {
     margin-right: 30px;
-    display: flex;
-    font-size: 16px;
 }
-.navbar a {
-    text-decoration: none;
-    color: #fff;
-    margin-right: 40px;
-    padding: 8px;
-    border-radius: 10px;
+.search {
+    margin-right: 200px;
 }
-
-.navbar a:hover {
-    color: #fbbd12;
-    background-color: #3c3e43;
-}
-
 header .search {
     width: 300px;
     display: flex;
@@ -78,6 +65,39 @@ header .search {
     margin-right: 5px;
 }
 
+.navbar {
+    margin-right: 40px;
+    display: flex;
+    font-size: 16px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.navbar a:hover {
+    color: #fbbd12;
+    background-color: #3c3e43;
+}
+
+.login button {
+    color: #fbbd12;
+    background-color: #2d2e32;
+    border: 2px solid #fbbd12;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 16px;
+}
+.login button:hover {
+    color: #2d2e32;
+    background-color: #fbbd12;
+}
+
 .signup button {
     color: #fbbd12;
     background-color: #2d2e32;
@@ -90,21 +110,6 @@ header .search {
 }
 
 .signup button:hover {
-    color: #2d2e32;
-    background-color: #fbbd12;
-}
-
-.login button {
-    color: #fbbd12;
-    background-color: #2d2e32;
-    border: 2px solid #fbbd12;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-    /* margin-right: 10px; */
-    font-size: 16px;
-}
-.login button:hover {
     color: #2d2e32;
     background-color: #fbbd12;
 }
