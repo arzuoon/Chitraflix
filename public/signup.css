@@ -1,4 +1,4 @@
-.popup-container {
+.signup-popup-container {
     display: none;
     position: fixed;
     top: 0;
@@ -12,7 +12,7 @@
 }
 
 /* Styles for the login form */
-.login-form {
+.signup-form {
     background-color: #3c3e43;
     margin: 100px;
     padding: 20px;
@@ -25,11 +25,11 @@
     flex-direction: column;
     position: relative;
 }
-.login-form img {
+.signup-form img {
     margin-bottom: 10px;
 }
 
-.login-bg {
+.signup-bg {
     width: fit-content;
     background-color: #2d2e32;
     margin-left: 30px;
@@ -41,13 +41,13 @@
     margin-bottom: 20px;
 }
 
-.user-login-txt h2 {
+.user-signup-txt h2 {
     color: #fbbd12;
     font-size: 25px;
     font-weight: lighter;
 }
 
-.login-bg form {
+.signup-bg form {
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -72,12 +72,12 @@
     outline: none;
 }
 
-.login-btn {
+.signup-btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.login-btn input {
+.signup-btn input {
     color: #fbbd12;
     background-color: #2d2e32;
     border: 2px solid #fbbd12;
@@ -89,36 +89,10 @@
     cursor: pointer;
 }
 
-.login-btn input:hover {
+.signup-btn input:hover {
     color: #2d2e32;
     background-color: #fbbd12;
     border: 2px solid #2d2e32;
-}
-
-.login-bg a {
-    text-decoration: none;
-    color: #fbbd12;
-}
-
-.login-bg button {
-    color: #fbbd12;
-    background-color: transparent;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    font-weight: lighter;
-}
-
-.forgot-password {
-    font-size: 16px;
-    font-weight: lighter;
-}
-
-.signup-link {
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: lighter;
 }
 
 .close-button {

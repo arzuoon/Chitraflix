@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="NavFoot.css"/>
     <link rel="stylesheet" href="movies.css"/>
     <link rel="stylesheet" href="login.css"/>
+    <link rel="stylesheet" href="signup.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     {{-- <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Acme|Alegreya|Alegreya+Sans|Anton|Archivo|Archivo+Black|Archivo+Narrow|Arimo|Arvo|Asap|Asap+Condensed|Bitter|Bowlby+One+SC|Bree+Serif|Cabin|Cairo|Catamaran|Crete+Round|Crimson+Text|Cuprum|Dancing+Script|Dosis|Droid+Sans|Droid+Serif|EB+Garamond|Exo|Exo+2|Faustina|Fira+Sans|Fjalla+One|Francois+One|Gloria+Hallelujah|Hind|Inconsolata|Indie+Flower|Josefin+Sans|Julee|Karla|Lato|Libre+Baskerville|Libre+Franklin|Lobster|Lora|Mada|Manuale|Maven+Pro|Merriweather|Merriweather+Sans|Montserrat|Montserrat+Subrayada|Mukta+Vaani|Muli|Noto+Sans|Noto+Serif|Nunito|Open+Sans|Open+Sans+Condensed:300|Oswald|Oxygen|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|PT+Serif|Pacifico|Passion+One|Pathway+Gothic+One|Play|Playfair+Display|Poppins|Questrial|Quicksand|Raleway|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Ropa+Sans|Rubik|Saira|Saira+Condensed|Saira+Extra+Condensed|Saira+Semi+Condensed|Sedgwick+Ave|Sedgwick+Ave+Display|Shadows+Into+Light|Signika|Slabo+27px|Source+Code+Pro|Source+Sans+Pro|Spectral|Titillium+Web|Ubuntu|Ubuntu+Condensed|Varela+Round|Vollkorn|Work+Sans|Yanone+Kaffeesatz|Zilla+Slab|Zilla+Slab+Highlight"
@@ -61,7 +62,7 @@
                     <a href="forgot-password"> <i> Forgot Password?</i></a>
                   </div>
                   <div class="signup-link">
-                    <p>Don't have an account? <a href="signup">Sign Up</a></p>
+                    <p>Don't have an account? <button onclick="openSignup()">Sign Up</button></p>
                   </div>
                   </div>
                 </div>
@@ -69,11 +70,45 @@
 
 
 
-            <a href="signup"> 
             <div class="signup">
-                <button>Sign Up</button>
+                <button onclick="openSignup()">Sign Up</button>
             </div>
-            </a>
+           
+            <div id="signupPopup" class="signup-popup-container">
+                <div class="signup-form">
+                   
+                  <button class="close-button" onclick="closeSignup()"><i class='bx bxs-x-circle'></i></button>
+                   
+                  <img src="img/chitraflix-logo(1).png" width="200px" alt="Chitraflix logo">
+                  <div class="signup-bg">
+                  <div class="user-signup-txt">
+                  <h2>SIGN UP</h2>
+                  </div>
+                  <form method="post" action="">
+                  <div class="input-group">
+                    <label>Username</label><br> 
+                    <input type="text" name="username" required><br><br>
+                  </div>
+                  <div class="input-group">
+                    <label>Email Address</label><br> 
+                    <input type="text" name="email" required><br><br>
+                  </div>
+                  <div class="input-group">
+                    <label>Password</label><br>
+                    <input type="password" name="password" required><br><br>
+                  </div>
+                  <div class="input-group">
+                    <label>Retype Password</label><br>
+                    <input type="password" name="password" required><br><br>
+                  </div>
+                  <div class="signup-btn">
+                  <input type="submit" value="SIGN UP">
+                  </div>
+                  </form>
+                  </div>
+                </div>
+              </div>
+
         </header>
 
         
@@ -271,9 +306,15 @@
     function openLogin() {
       document.getElementById('loginPopup').style.display = 'block';
     }
-
     function closeLogin() {
       document.getElementById('loginPopup').style.display = 'none';
+    }
+
+    function openSignup() {
+      document.getElementById('signupPopup').style.display = 'block';
+    }
+    function closeSignup() {
+      document.getElementById('signupPopup').style.display = 'none';
     }
     </script>
 </body>
