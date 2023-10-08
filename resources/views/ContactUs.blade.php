@@ -29,11 +29,63 @@
                     <a href="profile">PROFILE</a>           
             </nav>
  
- 
         </header>   
     </div>
 
   
+
+    <div class="contact">
+        <div class="contact-title">
+            <h1>CONTACT US</h1>
+        </div>
+        <div class="contact-content">
+          <div class="content-child">
+              <div class="para-highlight">GET IN TOUCH</div>
+              <p>
+                We value your feedback and suggestions. If you have any questions, ideas, or just want to say hello, don't hesitate to get in touch with us. We're here to make your movie-watching experience unforgettable. Thank you for choosing <a href="home"> Chitraflix</a> as your trusted source for all things cinema. We're excited to embark on this cinematic journey with you.
+              </p>
+              <p>We are always eager to hear from you. If you have any questions, suggestions, or feedback, please don't hesitate to reach out to us at [Contact Email Address]. Your insights help us make <a href="home"> Chitraflix </a> even better.
+                Thank you for choosing us as your trusted movie companion. Together, let's celebrate the magic of cinema!</p>
+                <div class="soc-bg">
+                  <div class="socials">
+                    <div class="our-socials">
+                      <p>OUR SOCIALS</p>
+                    </div>
+                    <div class="social-icon">
+                      <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a> &nbsp; &nbsp;
+                      <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a> &nbsp; &nbsp;
+                      <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a> &nbsp; &nbsp;
+                      <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+                <div class="send-bg">
+                  <div class="user-send-txt">
+                  <h2>MESSAGE US HERE</h2>
+                  </div>
+                  <form method="post" action="">
+                  <div class="input-group">
+                    <label>Name</label><br> 
+                    <input type="text" name="name" required><br><br>
+                  </div>
+                  <div class="input-group">
+                    <label>Email Address</label><br> 
+                    <input type="text" name="email" required><br><br>
+                  </div>
+                  <div class="input-group">
+                    <label>MESSAGE</label><br> 
+                    <textarea class="text-field" placeholder="Write your message" required> </textarea> <br><br>
+                  </div>
+                  <div class="send-btn">
+                  <input type="submit" value="SEND">
+                  </div>
+                  </form>
+                </div>
+     
+        </div>
+    </div>
+
 
 
 

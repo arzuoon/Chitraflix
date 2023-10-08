@@ -29,12 +29,25 @@
                     <a href="profile">PROFILE</a>           
             </nav>
  
-
- 
         </header>   
     </div>
 
   
+  
+    <div class="privacy">
+        <div class="privacy-title">
+            <h1>PRIVACY POLICY</h1>
+        </div>
+        <div class="privacy-content"> 
+          <div class="content-child">     
+              <ul>
+                <li><div class="para-highlight">Information we collect: </div> Personal Information: We may collect some of your personal informations, such as name, email address, and other informations provided by you while registering into our website.</li>
+              </ul>
+            </p>
+          </div>       
+        </div>
+    </div>
+
 
 
         <div class="footer">

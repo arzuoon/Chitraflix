@@ -28,13 +28,40 @@
                     <a href="genre">GENRE</a>
                     <a href="profile">PROFILE</a>           
             </nav>
- 
- 
         </header>   
     </div>
 
   
-
+    <div class="about">
+        <div class="about-title">
+            <h1>ABOUT US</h1>
+        </div>
+        <div class="about-content">
+          <div class="content-child">
+            <p>Welcome to <a href="home"> Chitraflix,</a> the ultimate destination for movie enthusiasts and geeks around the world. Our mission is to provide a platform where you can discover, discuss, and share your passion for movies.</p>
+               <p>At <a href="home"> Chitraflix,</a> we are a dedicated team of movie and films geeks and enthusiasts who believe that the movies have the power to connect and entertain people. Whether you’re a causal movie watcher or a hardcore fan, our website is designed for all your unique tastes and preferences. We envision a world where everyone can find the perfect movie to watch, where meaningful conversations about cinema thrive, and where movie enthusiasts can connect and share their thoughts with like-minded individuals. Our vision is to be your trusted companion on your cinematic journey, helping you discover the best movies and engage in lively discussions with our vibrant community.</p>
+          </div>
+          <div class="content-child">     
+            <p><div class="para-highlight">WHAT WE OFFFER</div>
+              <ul>
+                <li><div class="para-highlight">Comprehensive Movie Database: </div> Our extensive database includes a vast collection of movies from various different genres. Whether you're searching for the latest blockbusters or hidden gems, you'll find them here.</li>
+                <li><div class="para-highlight">User Ratings and Reviews:</div> We believe in the power of collective wisdom. Browse user-generated ratings and reviews to make informed decisions about what to watch next. Share your own opinions and contribute to our growing community.</li>
+              </ul>
+            </p>
+          </div> 
+          <div class="content-child">     
+            <p><div class="para-highlight">OUR VALUES</div>
+              <p>At <a href="home"> Chitraflix,</a> we are guided by a set of core values that shape every aspect of our platform:</p>
+              <ul>
+                <li><div class="para-highlight">Passion for Film: </div> We are driven by our unwavering love for movies. This passion fuels our commitment to delivering a top-notch movie discovery and discussion experience.</li>
+                <li><div class="para-highlight">User-Centric Approach:</div> Your satisfaction is our top priority. We are dedicated to providing a seamless and enjoyable experience for every user.  </li>
+                <li><div class="para-highlight">Transparency: </div> We believe in honesty and openness. Our ratings and reviews are user-generated and unfiltered, ensuring a genuine and unbiased perspective.  </li>
+                <li><div class="para-highlight">Community Building:</div> Movies are a communal experience. We strive to foster a vibrant community of film enthusiasts who share their insights, recommendations, and opinions.  </li>
+              </ul>
+            </p>
+          </div>       
+        </div>
+    </div>
 
 
         <div class="footer">

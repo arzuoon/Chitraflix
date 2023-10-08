@@ -29,12 +29,29 @@
                     <a href="profile">PROFILE</a>           
             </nav>
  
-
- 
         </header>   
     </div>
 
   
+  
+    <div class="faq">
+        <div class="faq-title">
+            <h1>FAQs</h1>
+        </div>
+        <div class="faq-content"> 
+          <div class="content-child">     
+              <ul>
+                <li><div class="para-highlight">What is the website all about? </div> This website was created with the purpose of ratings and reviewing of the movies.</li>
+                <li><div class="para-highlight">How can I rate a movie? </div> You can rate a movie by clicking on the movie and then clicking on the ratings.</li>
+                <li><div class="para-highlight">How can I review a movie? </div> You can review a movie by clicking on the movie and then typing at the review field.</li>
+                <li><div class="para-highlight">How can I search for a movie? </div> You can search for a movie by clicking on the search bar and typing the name of the movie.</li>  
+                <li><div class="para-highlight">Are the ratings on your website trustable? </div> Definitely, because the ratings are calculated as average on the basis of the ratings all the users provide.   </li>
+              </ul>
+ 
+          </div>       
+        </div>
+    </div>
+
 
 
 
