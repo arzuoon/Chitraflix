@@ -36,6 +36,8 @@
             <div class="login">
                 <button onclick="openLogin()">Log In</button>
             </div>
+
+            
               <div id="loginPopup" class="popup-container">
                 <div class="login-form">
                    
@@ -111,10 +113,10 @@
                 </div>
               </div>
 
-
-
-
         </header>
+
+
+        
         <div class="index">
             <div class="slider">
                 <div class="slide">
