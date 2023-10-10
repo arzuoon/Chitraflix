@@ -32,7 +32,6 @@
             </nav>
 
 
-            
             <div class="login">
                 <button onclick="openLogin()">Log In</button>
             </div>
@@ -110,11 +109,10 @@
                   </div>
                 </div>
               </div>
-
-
-
-
+         
         </header>
+
+
         <div class="index">
             <div class="slider">
                 <div class="slide">

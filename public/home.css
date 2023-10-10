@@ -89,12 +89,6 @@ body {
     font-family: caladea;
 }
 
-@media screen and (max-width: 768px) {
-    .text-box {
-        font-size: 14px;
-    }
-}
-
 .featured-this-week {
     display: flex;
     flex-direction: row;
@@ -191,13 +185,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-    .movie-card {
-        width: 90%;
-        margin: 10px auto;
-    }
-}
-
 .section-next {
     height: 450px;
     background-color: #2d2e32;
@@ -265,4 +252,66 @@ body {
 
 li {
     list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    .index {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .index-bg {
+        left: 1px;
+        background-color: var(--color-darkslategray-300);
+        width: 100%;
+        height: fit-content;
+        mix-blend-mode: normal;
+    }
+
+    .slider {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        height: fit-content;
+    }
+
+    .slide {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .slide img {
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .featured-this-week {
+        flex-direction: column; /* Stack movie cards vertically on smaller screens */
+    }
+
+    .movie-card {
+        width: 100%; /* Make movie cards take full width on smaller screens */
+        max-width: 320px; /* Limit the maximum width of movie cards */
+    }
+
+    .long-line {
+        width: 100%;
+    }
+
+    .movie-trailer {
+        width: 100%;
+    }
+
+    .section-next {
+        flex-direction: column;
+        height: fit-content;
+    }
 }
