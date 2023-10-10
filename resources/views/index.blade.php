@@ -35,6 +35,8 @@
             <div class="login">
                 <button onclick="openLogin()">Log In</button>
             </div>
+
+            
               <div id="loginPopup" class="popup-container">
                 <div class="login-form">
                    
